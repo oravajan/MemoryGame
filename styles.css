@@ -1,0 +1,42 @@
+#board {
+    width: 100%;
+    height: auto;
+}
+
+#endScreen {
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .75);
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    flex-direction: column;
+}
+
+#endScreen div {
+    background-color: rgba(255, 255, 255, .5);
+}
+
+#endScreen button {
+    font-size: 2rem;
+}
+
+.cards {
+    display: none;
+}
+
+.score1, .score2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.score1 {
+    color: red;
+}
+
+.score2 {
+    color: blue;
+}
